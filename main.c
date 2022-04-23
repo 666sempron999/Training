@@ -16,7 +16,7 @@ while(1)
 
 void Delay( uint32_t Val) 
 {
-  for( ; Val != 0; Val--) 
+  while(1)
   		{
 		__nop();
   		}
